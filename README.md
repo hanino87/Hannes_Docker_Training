@@ -164,7 +164,9 @@ Congratulations! You have just run your first Docker container.
 | `docker stop <container-id>` | Stop a container |
 | `docker rm <container-id>` | Remove a container |
 | `docker rmi <image-id>` | Remove an image |
-| `docker pull python` | take down an image python from docker hub |
+| `docker pull python` | take down an image python from docker hubs server |
+| `docker images` | see all your images on your computer |
+
 
 ---
 
@@ -194,13 +196,34 @@ https://hub.docker.com
 
 Here you can log in and create images and push to. 
 
-### You can from your command line if you have WSL installed drag down a image direct from dockerhub 
+### You can from your command line if you have WSL installed drag down (pull) a image direct from dockerhub 
 
 ```bash
 
-docker pull python 
+docker pull python with using the tag latest 
 
 ```
+
+### Problems if you don`t have WSL installed 
+
+Then you can't pull down an image. 
+
+then you have to install wsl on your computer. 
+
+wsl -- install 
+
+then you can pull down the images fron dockerhub
+
+### Verify images are on your computer 
+
+```bash
+docker images 
+```
+
+
+
+
+
 
 
 
