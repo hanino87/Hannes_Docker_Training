@@ -164,6 +164,7 @@ Congratulations! You have just run your first Docker container.
 | `docker stop <container-id>` | Stop a container |
 | `docker rm <container-id>` | Remove a container |
 | `docker rmi <image-id>` | Remove an image |
+| `docker pull python` | take down an image python from docker hub |
 
 ---
 
