@@ -220,6 +220,35 @@ then you can pull down the images fron dockerhub
 docker images 
 ```
 
+### run the image direct in the terminal 
+
+```bash 
+
+dock run -it python # take that image you have taken from dockerhub and start running it 
+
+```
+
+it means its the same as you running the command python in your shell run the python interpreter 
+
+### take away a image you have 
+
+```bash
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
