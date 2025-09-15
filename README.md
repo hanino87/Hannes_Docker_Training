@@ -109,7 +109,7 @@ Advantages for beginners:
 
 1. Create a file named `Dockerfile` (without extension) in an empty folder:  
    ```Dockerfile
-   # Start from the official Python 3.11 slim image
+   # Start from the official Python 3.11 slim image show where image come from. If you don´t specify it it will seaarch from docker. 
    FROM python:3.11-slim
 
    # Update packages and install security fixes
@@ -186,3 +186,11 @@ That’s all you need to get started with Docker as a beginner! 🚀
 docker build -t my-python-app .
 docker scan my-python-app
 ```
+
+## Dockerhub 
+
+https://hub.docker.com 
+
+Here you can log in and create images and push to. 
+
+
