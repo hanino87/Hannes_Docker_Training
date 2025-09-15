@@ -194,4 +194,15 @@ https://hub.docker.com
 
 Here you can log in and create images and push to. 
 
+### You can from your command line if you have WSL installed drag down a image direct from dockerhub 
+
+```bash
+
+docker pull python 
+
+```
+
+
+
+
 
